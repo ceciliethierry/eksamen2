@@ -1,0 +1,109 @@
+body {
+    font-family: 'Titillium Web';
+    font-size: 20px;
+}
+
+
+/* styling af navbar*/ 
+
+.topnav {
+    font-size: 18;
+    color: white;
+    background-color: #080332;
+    padding: 8;
+    text-align: right;
+}
+
+.topnav li {
+    font-size: 25;
+    color: white;
+    text-decoration-line: none;
+
+}
+
+/* styling af logo*/
+
+.logo {
+    padding: 22px;
+}
+
+/* styling af overskrifter*/ 
+
+.h1 {
+    padding: 20px;
+    text-align: center;
+    font-size: 30;
+}
+.h2 {
+    border: 20px;
+    font-size: 20px;
+}
+
+.active {
+    color: white;
+    text-decoration: none;
+}
+
+/* styling af brødtekst*/
+
+.tekst {
+    font-size: 16px;
+}
+
+/* styling af billeder*/
+
+klub {
+    max-width: 100px;
+    border: 90px;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding-top: 30;
+}
+
+
+
+/* Styling af formular*/
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+    
+}
+
+/* Styling af knap*/
+input[type=submit] {
+    background-color: #080332;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+/* Styling af baggrund til formular */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 30px;
+}
+
+/* styling af footer*/
+
+.footer {
+    color: #ffffff;
+    background-color: #080332;
+    padding-left: 15px;
+    font-size: 15;}

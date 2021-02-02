@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mountain Club</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Titillium Web' rel='stylesheet' href="styles.css">
+    <style>
+        body {
+            font-family: 'Titillium Web';
+            font-size: 22px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+          <div class="topnav">
+          <a href="index.html" class="active">HJEM</a>
+            <a href="leje.html" class="active">LEJE</a>
+            <a href="klub.html" class="active">MOUNTAIN CLUB
+            </a>
+        </div>
+        <!--Logo-->
+
+        <a href="index.html"> <img src="images/jensen.png" alt="Jensen Cykler logo" class="logo">
+        </a>
+    </header>
+    <main class="main">
+        <article>
+            <h1 class="h1">Get going!</h1>
+
+            <img src="images/klub.jpg" class="responsive" alt="Men bycycling in the nature while the sun is setting">
+            <h2> Bliv en del af Mountain Club!
+
+            </h2>
+
+            <p class="tekst">Mangler du nogle at dele din cykelglæde med? Nogen at fræse gennem de danske skove med? Eller måske nogen at konkurrerer med og sætte nye rekorder? <br><br>
+
+I Mountain Club skaber vi relationer mellem cyklister som matcher hinandens behov.
+Det er gratis og meget enkelt at melde sig ind i klubben. <br>
+Du skal blot udfylde nogle generelle informationer om dig selv og din cykelstil og disse informationer kan selvfølgelig altid justeres. <br>
+<br>
+Du definerer dine behov og så finder vi nogle at matche dig op med. 
+
+Hvis du ikke ejer en mountain bike kan du nemt og billigt <a href="leje.html" id="leje">leje</a> hos os og finde ud af om mountain biking er noget for dig!
+</p>
+              <div class="container">
+            <form action="action_page.php">
+
+                <label for="fname">Jeg hedder</label>
+                <input type="text" id="fname" name="firstname" placeholder="Dit fulde navn">
+
+                  <label for="lname">Kontakt mig her</label>
+                <input type="text" id="lname" name="lastname" placeholder="Din email">
+        
+
+                <label for="by">Jeg cykler i</label>
+                <select id="by" name="by">
+                    <option value="Aarhus">Aarhus</option>
+                      <option value="Aalborg">Aalborg</option>
+                    <option value="Odense">Odense</option>
+                    <option value="København">København</option>
+                </select>
+                   <label for="Tid">Jeg er</label>
+                <select id="nivea" name="niveau">
+                    <option value="begynder">Begynder</option>
+                    <option value="Øvet">Øvet</option>
+                    <option value="Ekspert">Ekspert</option>
+                </select>
+                    <label for="Tid">Jeg søger</label>
+                <select id="søger" name="søger">
+                    <option value="Én cykelven">Én cykelven</option>
+                    <option value="Flere cykelvenner">Flere cykelvenner</option>
+                </select>
+                    <label for="konkurrence">Jeg søger nogen at cykle</label>
+                <select id="konkurrence" name="konkurrence">
+                    <option value="med">Med</option>
+                    <option value="Imod">Imod</option>
+                </select>
+                     <label for="hvornår">Jeg cykler typisk</label>
+                <select id="when" name="when">
+                    <option value="Hverdagen">Mest i hverdagen</option>
+                    <option value="Weekenden">Mest i weekenden</option>
+                    <option value="Både i hverdagen og weekenden">Både i hverdagen og i weekenden</option>
+                </select>
+                
+                
+
+                <input type="submit" value="Get me going!">
+
+            </form>
+        </div>
+
+
+
+        </article>
+
+    </main>
+    <footer class="footer">
+        <p>Jensen Cykler © 2021</p>
+    </footer>
+
+</body>
+
+</html>
